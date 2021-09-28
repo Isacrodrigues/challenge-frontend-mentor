@@ -1,7 +1,29 @@
- div.menu{
+@font-face{
+
+	font-family: 'Red Hat Display', sans-serif;
+	src:url("/fonts/RedHatDisplay/RedHatDisplay-Medium");
+	font-size: 1em;
+
+}
+
+@font-face{
+
+	font-family: 'Red Hat Display', sans-serif;
+	src:url("/fonts/RedHatDisplay/RedHatDisplay-MediumItalic");
+	font-size: 1em;
+
+}
+
+div.menu{
     display: grid;
     text-align: center;
+
 }
+div.menu p{
+    font-size: 16px;
+    font-family:'RedHatDisplay-MediumItalic';
+}
+
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
