@@ -1,29 +1,67 @@
-@font-face{
+@import url( 'https://fonts.googleapis.com/css2? family = Red + Hat + Display: wght @ 500; 700; 900 & display = swap' );
 
-	font-family: 'Red Hat Display', sans-serif;
-	src:url("/fonts/RedHatDisplay/RedHatDisplay-Medium");
-	font-size: 1em;
-
+div.menu h1, h2 {
+	color: hsl(223, 47%, 23%);
 }
 
-@font-face{
 
-	font-family: 'Red Hat Display', sans-serif;
-	src:url("/fonts/RedHatDisplay/RedHatDisplay-MediumItalic");
-	font-size: 1em;
-
+body {
+	display: grid;
+	place-items: center;
+	position: absolute;
 }
 
-div.menu{
-    display: grid;
-    text-align: center;
-
+.group {
+	position: absolute;
 }
-div.menu p{
+
+.menu{
+	width:  450px;
+	height: 900px;
+	display: grid;
+  	text-align: center;
+	font-family:'Red Hat Display', sans-serif;
+	border-radius: 12px;
+	backdrop-filter: blur(12px);
+	box-shadow: 0 26px 42px rgba(0, 0, 0, 0.1);
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.menu p{
     font-size: 16px;
-    font-family:'RedHatDisplay-MediumItalic';
+	color:  hsl(224, 23%, 55%);
+}
+.plan, .buttons {
+	margin: 5px ;
+	display: grid;
+}
+.plan {
+	
+	background-color: hsl(225, 100%, 98%);
+	border-radius:12px;
+}
+ button {
+	margin: 2px;
+	border: none;
+	box-sizing: border-box;
+	border-radius:12px;
 }
 
+
+button#proceed {
+	background-color: hsl(245, 75%, 52%);
+	color:  white;
+	backdrop-filter: blur(12px);
+	box-shadow: 0 26px 42px hsla(245, 75%, 52%, 0.310);
+}
+
+
+button#cancel {
+	background-color:white;
+	color:  hsl(224, 23%, 55%);
+
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }

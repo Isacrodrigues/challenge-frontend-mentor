@@ -8,9 +8,7 @@
   <link rel = "preconnect" href = "https://fonts.googleapis.com">
   <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
-
-  
+  <link rel="img" type="svg"  href="images/illustration-hero.svg">
   <link rel="stylesheet" href="css/style.css">
   <title>Frontend Mentor | Order summary card</title>
 
@@ -18,19 +16,23 @@
   
 </head>
 <body>
-  <div class="menu"> <!-- menu-->
-    <a href="images/illustration-hero.svg"></a>
-    <h1>Order Summary</h1>
-    <p>can now listen to millions of songs, audiobooks, and podcasts on any 
-    device anywhere you like!</p>
-    <h2>Annual Plan</h2>
-    <h3>$59.99/year</h3>
-    <a href="">Change</a>
-    <div class= buttons><!-- buttons-->
-      <button>Proceed to Payment</button>
-      <button>Order</button>
+  <div class="group">
+    <div class="menu"><!-- menu-->
+      <a href="images/illustration-hero.svg"></a>
+      <h1>Order Summary</h1>
+      <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
+      device anywhere you like!</p>
+      <div class=plan>
+        <h2>Annual Plan</h2>
+        <p>$59.99/year</p>
+        <a href="">Change</a>
+      </div>
+      <div class=buttons><!-- buttons-->
+        <button id=proceed>Proceed to payment</button>
+        <button id="cancel">Cancel Order</button>
+      </div>
     </div>
-</div>
+  </div>
   
   <div class="attribution">
     <p> challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
