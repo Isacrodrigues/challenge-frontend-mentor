@@ -1,42 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel =" stylesheet" href = "https: //fonts.googleapis.com/css2? family = Red + Hat + Display: wght @ 500 & display = swap ">
-  <link href = "https: //fonts.googleapis.com/css2? family = Red + Hat + Display: ital, wght @ 0,500; 1,900 & display = swap "rel =" stylesheet ">
-  <link rel = "preconnect" href = "https://fonts.googleapis.com">
-  <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="img" type="svg"  href="images/illustration-hero.svg">
-  <link rel="stylesheet" href="css/style.css">
-  <title>Frontend Mentor | Order summary card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  
-</head>
-<body>
-  <div class="group">
-    <div class="menu"><!-- menu-->
-      <img src="images/illustration-hero.svg"/>
-      <h1>Order Summary</h1>
-      <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
-      device anywhere you like!</p>
-      <div class=plan>
-        <h2>Annual Plan</h2>
-        <p>$59.99/year</p>
-        <a href="">Change</a>
-      </div>
-      <div class=buttons><!-- buttons-->
-        <button id=proceed>Proceed to payment</button>
-        <button id="cancel">Cancel Order</button>
-      </div>
-    </div>
-  </div>
-  
-  <div class="attribution">
-    <p> challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/Isacrodrigues">Isac Rodrigues</a>. </p>
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel =" stylesheet" href = "https: //fonts.googleapis.com/css2? family = Red + Hat + Display: wght @ 500 & display = swap ">
+    <link href = "https: //fonts.googleapis.com/css2? family = Red + Hat + Display: ital, wght @ 0,500; 1,900 & display = swap "rel =" stylesheet ">
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="img" type="svg"  href="images/illustration-hero.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Frontend Mentor | Order summary card</title>    
+  </head>
+  <body>
+      <section> 
+          <div class="menu">
+            <img src="images/illustration-hero.svg" class="illustration-hero"/>
+            <div class="paragraph">
+                <h1>Order Summary</h1>
+              <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
+              device anywhere you like!</p>
+            </div><!--paragraph-->
+            <div class=plan>
+              <img src="images/icon-music.svg" />
+              <div class="plan-text">
+                <h2>Annual Plan</h2>
+                <p>$59.99/year</p>
+              </div><!--plan-text-->
+              <a href="">Change</a>
+            </div><!--plan-->
+            <div class=buttons>
+              <button id=proceed>Proceed to payment</button>
+              <button id="cancel">Cancel Order</button>
+            </div><!-- buttons-->
+          </div><!-- menu-->
+      </section>
+      <footer>
+        <div class="attribution">
+          <p> challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="https://github.com/Isacrodrigues">Isac Rodrigues</a>. </p>
+        </div><!--attribution-->
+    </footer>
+  </body>
 </html>

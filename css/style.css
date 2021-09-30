@@ -7,49 +7,78 @@ div.menu h1, h2 {
 
 body {
 	display: grid;
-	place-items: center;
-	position: absolute;
+	justify-items: center;
 }
 
 
-.menu{
-	width:  450px;
-	height: 900px;
+.menu {
 	display: grid;
-  	text-align: center;
+	width: 450px;
+	height: 100vh;
 	font-family:'Red Hat Display', sans-serif;
-	border-radius: 12px;
 	backdrop-filter: blur(12px);
 	box-shadow: 0 26px 42px rgba(0, 0, 0, 0.1);
-	padding-left: 30px;
-	padding-right: 30px;
 }
 
 .menu p{
     font-size: 16px;
 	color:  hsl(224, 23%, 55%);
 }
-.plan, .buttons {
-	margin: 5px ;
+
+ .buttons {
 	display: grid;
+	height: 80px;
 }
+
+.paragraph {
+	text-align: center;
+
+}
+img.illustration-hero {
+	padding: 0px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+}
+
+
+div.plan, button, .menu, .paragraph {
+	border-radius:12px;
+	margin-left: 46px;
+	margin-right: 46px;
+	height: auto;
+}
+section {
+	display: flex;
+	justify-items: center;
+}
+
 .plan {
-	
+	display: grid;
+	display: inline-flex;
+	padding: 5px;
+	height: 65px;
 	background-color: hsl(225, 100%, 98%);
-	border-radius:12px;
+	margin: none;
 }
- button {
+
+div.plan h2,div.plan p {
+	font-size: 17px;
 	margin: 2px;
+}
+
+ button {
 	border: none;
-	box-sizing: border-box;
-	border-radius:12px;
+	height: 45px;
+	font-family:'Red Hat Display', sans-serif;
+	height: 35px;
+	margin-bottom: 0%;
 }
 
 
 button#proceed {
 	background-color: hsl(245, 75%, 52%);
 	color:  white;
-	backdrop-filter: blur(12px);
+	backdrop-filter: blur(10px);
 	box-shadow: 0 26px 42px hsla(245, 75%, 52%, 0.310);
 }
 
